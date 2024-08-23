@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahi's Blogs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" image="x-type/icon" href="Home.jpg">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="left">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#"><img src="github.png" alt=""></a></li>
+                    <li><a href="#"><img src="linkedin.png" alt=""></a></li>
+                    <li><a href="#"><img src="fiverr.png" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+
+    <section id="Contact" class="contact">
+        
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="mailto:salatamahenoor7.8.6@gmail.com" method="post" target="_blank"  onsubmit="return validateForm()">
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                </div>
+                <div class="input-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                </div>
+                <div class="input-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn1">Submit</button>
+
+                
+            </form>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
